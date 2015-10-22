@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Let's Do Some Math!</h3>
+
+    <input type="text" id="num_one" />
+    <br><br />
+
+    <select id="sign">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <br><br>
+
+    <input type="text" id="num_two" />
+    <br /><br />
+
+    <input type="submit" value="Calculate" id="calculateBtn" onclick="calculator();"/>
+
+    <div class="answer">
+      <br />
+      Answer: <span id="answer"></span>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
